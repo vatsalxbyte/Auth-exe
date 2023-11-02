@@ -1,0 +1,25 @@
+{
+  "name": "exeapplicationtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron . --disable-gpu",
+    "package": "electron-builder",
+    "package:win": "electron-builder --win",
+    "package:mac": "electron-builder --mac",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "homepage": "./",
+  "author": {
+    "name": "Vatsal Zinzuvadiya",
+    "email": "vatsal.zinzuvadiya@xbyte.io"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "dmg-license": "^1.0.11",
+    "electron": "^27.0.3",
+    "electron-builder": "^24.6.4"
+  }
+}

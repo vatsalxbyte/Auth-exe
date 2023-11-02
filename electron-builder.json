@@ -1,0 +1,22 @@
+{
+    "appId": "784547",
+    "productName": "Auth-Mu",
+    "directories": {
+      "output": "build"
+    },
+    "files": [
+      "**/*"
+    ],
+    "asar": true,
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "linux": {
+      "maintainer": "Vatsal Zinzuvadiya <vatsal.zinzuvadiya@xbyte.io>"
+    }
+  }
+  
